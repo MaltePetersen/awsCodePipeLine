@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'pipe'`, () => {
+  it(`should have as title 'defaultNgConfiguration'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('pipe');
+    expect(app.title).toEqual('defaultNgConfiguration');
   });
 
   it('should render title in a h1 tag', () => {
