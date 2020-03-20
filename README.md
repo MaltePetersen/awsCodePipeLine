@@ -1,7 +1,48 @@
 # defaultNgConfiguration
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
-
+## Folder Structure
+<project root>
+src
+    app
+        core
+            exception.service.ts|spec.ts
+            user-profile.service.ts|spec.ts
+        heroes
+            hero
+                hero.component.ts|html|css|spec.ts
+            hero-list
+                hero-list.component.ts|html|css|spec.ts
+            shared
+                hero-button.component.ts|html|css|spec.ts
+                hero.model.ts
+                hero.service.ts|spec.ts
+            heroes.component.ts|html|css|spec.ts
+            heroes.module.ts
+            heroes-routing.module.ts
+    shared
+        shared.module.ts
+        init-caps.pipe.ts|spec.ts
+        filter-text.component.ts|spec.ts
+        filter-text.service.ts|spec.ts
+    villains
+        villain
+            ...
+        villain-list
+            ...
+        shared
+            ...
+        villains.component.ts|html|css|spec.ts
+        villains.module.ts
+        villains-routing.module.ts
+    app.component.ts|html|css|spec.ts
+    app.module.ts
+    app-routing.module.ts   
+    main.ts
+    index.html
+    ...
+node_modules/...
+...
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
